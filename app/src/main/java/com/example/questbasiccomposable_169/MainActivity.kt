@@ -51,7 +51,13 @@ fun LoginScreen(modifier: Modifier = Modifier) {
                 .padding(8.dp),
             contentScale = ContentScale.Fit
         )
-
+        Text(
+            text = "Nama",
+            fontSize = 20.sp,
+            color = Color.Black,
+            textAlign = TextAlign.Center,
+            fontWeight = FontWeight.Bold,
+        )
     }
 }
 
