@@ -43,6 +43,14 @@ fun LoginScreen(modifier: Modifier = Modifier) {
             .padding(16.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ){
+        Image(
+            painter = painterResource(id = R.drawable.UMYlogo),
+            contentDescription = "",
+            modifier = Modifier
+                .size(150.dp)
+                .padding(8.dp),
+            contentScale = ContentScale.Fit
+        )
 
     }
 }
