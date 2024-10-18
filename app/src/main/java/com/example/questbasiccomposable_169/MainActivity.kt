@@ -20,7 +20,9 @@ class MainActivity : ComponentActivity() {
         setContent {
             Questbasiccomposable_169Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-
+                    LoginScreen(
+                        Modifier.padding(innerPadding)
+                    )
                 }
             }
         }
