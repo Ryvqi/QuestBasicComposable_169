@@ -51,6 +51,12 @@ fun LoginScreen(modifier: Modifier = Modifier) {
             color = Color.Black,
             modifier = Modifier.padding(top = 16.dp)
         )
+        Text(
+            text = "Ini adalah halaman login",
+            fontSize = 18.sp,
+            color = Color.Gray,
+            modifier = Modifier.padding(bottom = 16.dp)
+        )
         Image(
             painter = painterResource(id = R.drawable.logo),
             contentDescription = "",
