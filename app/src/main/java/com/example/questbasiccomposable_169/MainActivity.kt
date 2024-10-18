@@ -44,6 +44,13 @@ fun LoginScreen(modifier: Modifier = Modifier) {
             .padding(16.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ){
+        Text(
+            text = "Login",
+            fontSize = 40.sp,
+            fontWeight = FontWeight.Bold,
+            color = Color.Black,
+            modifier = Modifier.padding(top = 16.dp)
+        )
         Image(
             painter = painterResource(id = R.drawable.logo),
             contentDescription = "",
