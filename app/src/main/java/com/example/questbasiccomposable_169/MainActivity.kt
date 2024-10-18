@@ -31,10 +31,14 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun LoginScreen(modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
+    Column(
         modifier = modifier
-    )
+            .fillMaxSize()
+            .padding(16.dp),
+        horizontalAlignment = Alignment.CenterHorizontally
+    ){
+
+    }
 }
 
 @Preview(showBackground = true)
