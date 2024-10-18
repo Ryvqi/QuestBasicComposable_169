@@ -58,13 +58,20 @@ fun LoginScreen(modifier: Modifier = Modifier) {
             textAlign = TextAlign.Center,
             fontWeight = FontWeight.Bold,
         )
+        Text(
+            text = "Rifqi Khabibi",
+            fontSize = 24.sp,
+            color = Color.Red,
+            textAlign = TextAlign.Center,
+            fontWeight = FontWeight.Bold,
+        )
     }
 }
 
 @Preview(showBackground = true)
 @Composable
-fun GreetingPreview() {
+fun LoginScreenPreview() {
     Questbasiccomposable_169Theme {
-        Greeting("Android")
+        LoginScreen()
     }
 }
