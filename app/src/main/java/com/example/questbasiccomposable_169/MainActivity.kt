@@ -65,6 +65,14 @@ fun LoginScreen(modifier: Modifier = Modifier) {
             textAlign = TextAlign.Center,
             fontWeight = FontWeight.Bold,
         )
+        Text(
+            text = "20220140169",
+            fontSize = 28.sp,
+            color = Color.Black,
+            textAlign = TextAlign.Center,
+            fontWeight = FontWeight.Bold,
+        )
+
     }
 }
 
