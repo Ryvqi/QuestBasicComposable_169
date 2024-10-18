@@ -72,7 +72,7 @@ fun LoginScreen(modifier: Modifier = Modifier) {
             textAlign = TextAlign.Center,
             fontWeight = FontWeight.Bold,
         )
-
+        Spacer(modifier = Modifier.height(16.dp))
     }
 }
 
